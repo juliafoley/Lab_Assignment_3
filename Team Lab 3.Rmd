@@ -66,8 +66,9 @@ ggplot(data = cdc,mapping = aes(x = weight, y = genhlth)) +
   geom_smooth() +
   stat_boxplot()+
   facet_wrap(~smoke100, labeller= as_labeller(smoke_names)) +
-  labs(title = "The Impact of Smoking on Weight vs General Health", caption ="The black-lines represent the average of each data set") +
-  theme_dark()
+  labs(title = "The Impact of Smoking on Weight vs General Health", caption ="The black-lines represent the average of each data set",x = 'Weight',y = 'General Health') +
+  theme_dark()+
+  theme(plot.caption = element_text(color = "black", face = "bold.italic"), plot.title = element_text(color = "blue", face = "bold"))
  
 ```
 
