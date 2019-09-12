@@ -1,0 +1,66 @@
+---
+title: "Team lab"
+author: "Julia Foley"
+date: "9/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r,echo=FALSE}
+library(tidyverse)
+source("http://www.openintro.org/stat/data/cdc.R")
+cdc <- as_tibble(cdc)
+```
+
+## Team Lab Report
+
+### Overall Question
+  How does smoking affect weight? 
+  
+### Why Important?
+  The question is important because it will show what effects smoking has on human beings. 
+  
+  
+### More Detailed Why Important
+  Showing what effect smoking has on someone’s weight may deter or encourage people to smoke. This is important because it could impact the cigarette industry. If the data shows that generally smokers weigh more than non-smokers, then less people will smoke. If the data shows that generally smokers weigh less than non-smokers, then more people will smoke. 
+  
+  
+### Plot
+  
+  
+### Conclusion
+  
+  
+### Recommendation
+  
+  
+### Individual Work
+
+**Julia Foley**
+
+```{r, echo=FALSE}
+ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
+  geom_col() +
+  theme_bw()
+```
+
+###### Findings
+  When comparing age and exercise, I found that respondents who were younger exercised more than respondents who were older. The data shows a steady decline in the number of respondents, years 38 to 100, who have exercised in the last month. Additionally, Men exercise significantly more than women. However, women, years 95 to 100, exercise more than men. Overall, as age increases, the amount of exercise decreases. 
+  
+  
+### What Each Team Member Did
+
+**Julia Foley**
+
+###### Individual
+   I created a plot by using ggplot, color=gender, geom_col, and theme_bw. All of these codes made it easier for the reader to interpret and understand the data.
+   
+###### Team
+  I created the outline of the document and created a file. I then wrote the why important and more detailed why important sections. 
+  
+  
+  
