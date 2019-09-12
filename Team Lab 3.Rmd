@@ -49,7 +49,7 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   
 
 **Declan Franklin**
-###### Hypothesis:**
+###### Hypothesis:
 
 Individuals that smoke will have a lower quality of health, but they will weigh less than the Non-Smokers.
 
