@@ -8,10 +8,6 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
-```
-
-```{r,echo=FALSE}
-library(tidyverse)
 source("http://www.openintro.org/stat/data/cdc.R")
 cdc <- as_tibble(cdc)
 ```
@@ -42,7 +38,7 @@ cdc <- as_tibble(cdc)
 
 **Julia Foley**
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   geom_col() +
   theme_bw()
@@ -51,7 +47,31 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
 ###### Findings
   When comparing age and exercise, I found that respondents who were younger exercised more than respondents who were older. The data shows a steady decline in the number of respondents, years 38 to 100, who have exercised in the last month. Additionally, Men exercise significantly more than women. However, women, years 95 to 100, exercise more than men. Overall, as age increases, the amount of exercise decreases. 
   
-  
+
+**Declan Franklin**
+###### Hypothesis:**
+
+Individuals that smoke will have a lower quality of health, but they will weigh less than the Non-Smokers.
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+smoke_names <- c(
+  '0' = "Non-Smoker",
+  '1' = "Smoker"
+)
+ggplot(data = cdc,mapping = aes(x = weight, y = genhlth)) +
+  geom_smooth() +
+  stat_boxplot()+
+  facet_wrap(~smoke100, labeller= as_labeller(smoke_names)) +
+  labs(title = "The Impact of Smoking on Weight vs General Health", caption ="The black-lines represent the average of each data set") +
+  theme_dark()
+ 
+```
+
+###### Findings and Conclussions:**
+
+After running the numbers, the data showed that my hypothesis was incorrect. In general, the smokers hold a higher quality of general health and their weight fluctuates. The Non-Smokers weight gets heavier as the quality of health goes from excellent to poor. In conclusion, the fact that the smokers knew that they smoke at the time of the survey was most likely a threat to the validity of the experiment.
+
 ### What Each Team Member Did
 
 **Julia Foley**
@@ -62,5 +82,9 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
 ###### Team
   I created the outline of the document and created a file. I then wrote the why important and more detailed why important sections. 
   
-  
-  
+**Declan Franklin**
+###### Individual
+  I used ggplot to test my hypothesis that studies the impact of smoking on weight and general health. I created a plot using geom_smooth to graph weight vs general health. I used stat_boxplot to see the average score, and I used a facet_wrap to have graphs of smokers vs non smokers. The data was pretty interesting, and proved my hypothesis incorrect.
+
+###### Team     
+ My team role was to help with the syntax and apperence of our markdown. My goal is to make the finished piece look nice and for it to run effectivly.  
