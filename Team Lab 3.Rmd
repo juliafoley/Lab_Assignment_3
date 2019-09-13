@@ -96,7 +96,7 @@ ggplot(data = cdc,mapping = aes(x = weight, y = genhlth )) +
  
 ```
 
-**Findings and Conclussions:**
+**Findings:**
 
 After running the numbers, the data showed that my hypothesis was incorrect. In general, the smokers hold a higher quality of general health and their weight fluctuates. The Non-Smokers weight gets heavier as the quality of health goes from excellent to poor. In conclusion, the fact that the smokers knew that they smoke at the time of the survey was most likely a threat to the validity of the experiment.
 
@@ -132,6 +132,17 @@ ggplot(data= cdc) +
 
 These plots show that the hypothesis is true. In general, people who exercise do have a lower desired weight than those who don't. In addition, I decided to separate based on gender and found that this effect is more dominant in women. This relates to our main question because it shows that exercise is a good form of motivation to lose weight and is a healthier alternative than smoking.
 
+## Nisia Pinto 
+*Hypothesis*
+Men and women with better health exercise more than the ones with poor health.
+
+```{r}
+ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2)
+```
+**Findings:**
+I did not reject the hypothesis that men and women with better health exercise more than the ones with poor health. 
+These five plots represent the general health of men and women according to the number of times they exercise.In this data, men exercise more than women.There is a small difference between cases. As health quality increases more men and women exercise. With fair health, men tend to exercise more than women.
+
 ## What Each Team Member Did
 
 <p>&nbsp;</p>
@@ -157,26 +168,20 @@ These plots show that the hypothesis is true. In general, people who exercise do
 
 <p>&nbsp;</p>
 
-## Nisia Pinto 
-
+ ## Nisia Pinto
 **Individual:**
 I used ggplot to establish the relationship between exercise and general health in men and women.
-I confirmed the hypothesis that men and women with better health exercise more than the ones with poor health.
 
-```{r}
-ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2)
-```
-These five plots represent the general health of men and women according to the number of times they exercise.In this data, men exercise more than women.There is a small difference between cases. As health quality increases more men and women exercise. With fair health, men tend to exercise more than women.
 **Team:**
- Tried different plots and helped form the main hypothesis. 
+ Tried different plots and helped form the main hypothesis. Input different data sets and saw the relationship between them and was able to see some plots that help understand the team question. 
 
-#### **Thomas Neal**
-##### Individual:
+### Thomas Neal
+**Individual:**
 Using ggplot I tested many hypotheses relating weight, general health, smoking, and exercise. First I wanted to know if weight had any effect on an individual's reported health. I found very little correlation. Then I looked at the correlation between exercise and general health and found that healthy people exercise more, however  one of my teammates was already studying this relationship. I desided test the hypothesis that people who exercise have a lower desired weight than those who don't.
 
-##### Team:
+**Team:**
 I helped to form our overall hypothesis and come up with what its conclusion should be. Also, I tested many different plots and hypotheses trying to find interesting data and correlation that would support our findings or recommend alternatives.
 =======
 **Team contribuition:**
 
->>>>>>> Stashed changes
+
