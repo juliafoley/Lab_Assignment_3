@@ -92,3 +92,11 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 
 ##### Team:     
  My team role was to help with the syntax and apperence of our markdown. My goal is to make the finished piece look nice and for it to run effectivly.  
+
+ #### **Andres Acevedo**
+
+ #####Individual:
+ ```{r}
+ ggplot(data = cdc) +
+  geom_bar(mapping = aes(x = genhlth, fill = gender), position = "dodge") + facet_grid(exerany~smoke100)
+  ```
