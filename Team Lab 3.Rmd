@@ -155,7 +155,15 @@ These five plots represent the general health of men and women according to the 
 
 <p>&nbsp;</p>
 
+### Andres Acevedo
 
+**Individual**
+  I, Andres Acevedo, explored the relationship between age and weight of smokers and non smokers. After plotting age vs weight and segmenting by genhlth, I realized there were no valuable differences in the rate at which smokers and non smokers gain weight over time. I then decided that the most reliable data was the self reporting of health status. I ended up building a plot comparing the self reported health status of non-smoking non-exercisers, non-smoking exercisers, and all other groups. I used conventional wisdom to predict that the healthiest group would be the non-smoking non-exercisers. 
+
+**Team**
+As a member of the P-Hackers, I helped come up with the research question. I also discussed all relationships between smoking and weight with my teammates to help us come up with our final plot. 
+
+<p>&nbsp;</p> 
 
 ### Julia Foley
 
