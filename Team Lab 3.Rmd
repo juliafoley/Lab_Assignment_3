@@ -180,6 +180,6 @@ Using ggplot I tested many hypotheses relating weight, general health, smoking, 
 **Team:**
 I helped to form our overall hypothesis and come up with what its conclusion should be. Also, I tested many different plots and hypotheses trying to find interesting data and correlation that would support our findings or recommend alternatives.
 =======
-**Team contribuition:**
+
 
 
