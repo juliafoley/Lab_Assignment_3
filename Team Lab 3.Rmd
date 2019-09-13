@@ -45,7 +45,7 @@ ggplot(data=cdc, mapping = aes(x = weight)) +
  
   
 ### Conclusion
-  
+  We found that most respondents were between 100 and 200 pounds. However, smokers are typically slightly higher in weight than non-smokers. This shows that smoking has some effect on a person's weight however, the difference is very minimal. 
   
 ### Recommendation
   
