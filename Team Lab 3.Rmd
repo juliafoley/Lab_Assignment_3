@@ -48,7 +48,7 @@ ggplot(data=cdc, mapping = aes(x = weight)) +
   We found that most respondents were between 100 and 200 pounds. However, smokers are typically slightly higher in weight than non-smokers. This shows that smoking has some effect on a person's weight however, the difference is very minimal. 
   
 ### Recommendation
-  
+Due to the little correlation between smoking and weight, we suggest that the Center for Disease Control and Prevention does not use weight as a factor for why individuals should stop smoking. The CDC should, instead, study the relationship between smoking and overall health because there will be a higher correlation between those two things. However, the CDC should make the public aware of the slight weight increase due to smoking. Additionally, the CDC should further look into why more average weight respondents smoked. There could be a correlation between average weight, smoking, and a third factor, like stress levels. 
   
 ## Individual Reports:
 <p>&nbsp;</p>
@@ -110,10 +110,10 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 #### **Julia Foley**
 
 ##### Individual:
-   I created a plot by using ggplot, color=gender, geom_col, and theme_bw. All of these codes made it easier for the reader to interpret and understand the data.
+   I, Julia Foley, compared the amount of exercise with age and gender using a plot I created on R Markdown. I created a plot by using ggplot, color=gender, geom_col, and theme_bw. All of these codes made it easier for the reader to interpret and understand the data. Then, I studied my findings and reported it in the findings section of my report. 
    
 ##### Team:
-  I created the outline of the document and created a file. I then wrote the why important and more detailed why important sections. 
+  My team role was to do the writing for the Report. I created the outline of the document and created a file. I, then, wrote the why important and more detailed why important sections. Additionally, I wrote the conclusion and recommendation sections of the Lab Report. It was interesting to analyze the data and see the relationship between weight and smoking. 
   
 <p>&nbsp;</p>  
 
