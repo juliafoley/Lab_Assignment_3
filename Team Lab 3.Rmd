@@ -101,11 +101,35 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
  ggplot(data = cdc) +
   geom_bar(mapping = aes(x = genhlth, fill = gender), position = "dodge") + facet_grid(exerany~smoke100)
   ```
+<p>&nbsp;</p>
 
+#### **Thomas Neal**
+
+##### Hypothesis:
+People who exercise have a lower desired weight than those who don't.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+Names <- c(
+  '0' = "No Exercise",
+  '1' = "Frequent Exercise",
+  'm' = "Male",
+  'f' = "Female"
+)
+
+ggplot(data= cdc) +
+  labs(title="Desired Weight VS. Exercise", x="Desired Weight", y="Study Count" )+ geom_histogram(mapping=aes(x=wtdesire)) +facet_wrap(gender~exerany,labeller= as_labeller(Names)) 
+
+```
+
+##### Findings and Conclussions:
+
+These plots show that the hypothesis is true. In general, people who exercise do have a lower desired weight than those who don't. In addition, I decided to separate based on gender and found that this effect is more dominant in women. This relates to our main question because it shows that exercise is a good form of motivation to lose weight and is a healthier alternative than smoking.
 
 ## What Each Team Member Did
 
 <p>&nbsp;</p>
+
+
 
 #### **Julia Foley**
 
@@ -137,3 +161,10 @@ ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(s
 These five plots represent the general health of men and women according to the number of times they exercise.In this data, men exercise more than women.There is a small difference between cases. As health quality increases more men and women exercise. With fair health, men tend to exercise more than women.
 
 **Team:**
+
+#### **Thomas Neal**
+##### Individual:
+Using ggplot I tested many hypotheses relating weight, general health, smoking, and exercise. First I wanted to know if weight had any effect on an individual's reported health. I found very little correlation. Then I looked at the correlation between exercise and general health and found that healthy people exercise more, however  one of my teammates was already studying this relationship. I desided test the hypothesis that people who exercise have a lower desired weight than those who don't.
+
+##### Team:
+I helped to form our overall hypothesis and come up with what its conclusion should be. Also, I tested many different plots and hypotheses trying to find interesting data and correlation that would support our findings or recommend alternatives.
