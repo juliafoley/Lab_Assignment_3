@@ -100,12 +100,22 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 
 <p>&nbsp;</p>
 
-### **Andres Acevedo**
+
+#### **Andres Acevedo**
+
+**Hypothesis:**
+
+There will be a larger number of non-smoking, non-smokers who self identify as in excellent, very good and good health when as compared to the smoking exercisers and the non-smoking, non-exercisers. 
+
 
  ```{r,echo=FALSE, message=FALSE, warning=FALSE}
  ggplot(data = cdc) +
   geom_bar(mapping = aes(x = genhlth, fill = gender), position = "dodge") + facet_grid(exerany~smoke100)
   ```
+  
+  **Findings**
+My hypothesis turned out to be correct. As conventional wisdom predicted, the largest change in self-reported excellent, very good and good health, came from the addition of exercise to a non-smoker or smoker's routine.
+
 <p>&nbsp;</p>
 
 ### Thomas Neal
