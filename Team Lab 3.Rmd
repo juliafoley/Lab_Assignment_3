@@ -53,8 +53,6 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 ### Individual Reports:
 <p>&nbsp;</p>
 
-<<<<<<< HEAD
-### Julia Foley
 
 **Hypothesis:**
 =======
