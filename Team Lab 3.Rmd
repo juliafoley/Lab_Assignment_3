@@ -54,7 +54,7 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 <p>&nbsp;</p>
 
 =======
-#### **Julia Foley**
+### **Julia Foley**
 
 **Hypothesis:**
 
@@ -100,7 +100,7 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 
 <p>&nbsp;</p>
 
-#### **Andres Acevedo**
+### **Andres Acevedo**
 
  ```{r,echo=FALSE, message=FALSE, warning=FALSE}
  ggplot(data = cdc) +
@@ -130,7 +130,7 @@ ggplot(data= cdc) +
 
 These plots show that the hypothesis is true. In general, people who exercise do have a lower desired weight than those who don't. In addition, I decided to separate based on gender and found that this effect is more dominant in women. This relates to our main question because it shows that exercise is a good form of motivation to lose weight and is a healthier alternative than smoking.
 
-## Nisia Pinto 
+### Nisia Pinto 
 *Hypothesis*
 Men and women with better health exercise more than the ones with poor health.
 
