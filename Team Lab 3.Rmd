@@ -55,7 +55,7 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 
 **Julia Foley**
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   geom_col() +
