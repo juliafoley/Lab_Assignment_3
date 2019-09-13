@@ -28,7 +28,7 @@ cdc <- as_tibble(cdc)
   
   
 ### Plot
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 P_names <- c(
   '0' = "Non-Smoker",
   '1' = "Smoker",
@@ -55,7 +55,7 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 
 **Julia Foley**
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   geom_col() +
@@ -74,7 +74,7 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
 Individuals that smoke will have a lower quality of health, but they will weigh less than the Non-Smokers.
 
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 smoke_names <- c(
   '0' = "Non-Smoker",
   '1' = "Smoker"
@@ -108,7 +108,7 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 ##### Hypothesis:
 People who exercise have a lower desired weight than those who don't.
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=TRUE, message=FALSE, warning=FALSE}
 Names <- c(
   '0' = "No Exercise",
   '1' = "Frequent Exercise",
