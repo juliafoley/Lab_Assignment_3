@@ -56,7 +56,7 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 =======
 #### **Julia Foley**
 
-##### Hypothesis:
+**Hypothesis:**
 >>>>>>> master
 My hypothesis is that as age increases, the amount of exercise will decrease. 
 
