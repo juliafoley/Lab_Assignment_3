@@ -1,8 +1,8 @@
 
 
 ---
-title: "Lab_3"
-author: "P-Hackers"
+title: "P-Hackers, Lab_3"
+author: "Nisia Pinto, Declan Franklin, Julia Foley, Thomas Neal, Andres Acevedo"
 date: "9/11/2019"
 output: html_document
 ---
