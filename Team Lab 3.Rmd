@@ -45,7 +45,7 @@ ggplot(data=cdc, mapping = aes(x = weight)) +
  
   
 ### Conclusion
-  We found that most respondents were between 100 and 200 pounds. However, smokers are typically slightly higher in weight than non-smokers. This shows that smoking has some effect on a person's weight however, the difference is very minimal. 
+    We found that most respondents were between 100 and 200 pounds. However, smokers are typically slightly higher in weight than non-smokers. This shows that smoking has some effect on a person's weight however, the difference is very minimal. In addition these differences could be coming from untested factors such as exercise.
   
 ### Recommendation
 Due to the little correlation between smoking and weight, we suggest that the Center for Disease Control and Prevention does not use weight as a factor for why individuals should stop smoking. The CDC should, instead, study the relationship between smoking and overall health because there will be a higher correlation between those two things. However, the CDC should make the public aware of the slight weight increase due to smoking. Additionally, the CDC should further look into why more average weight respondents smoked. There could be a correlation between average weight, smoking, and a third factor, like stress levels. 
