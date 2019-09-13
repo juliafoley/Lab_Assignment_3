@@ -126,3 +126,14 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
 
 <p>&nbsp;</p>
 
+## Nisia Pinto 
+*Individual:*
+Plot relationship between exercise and general health in men and women.
+I created a ggplot and confirmed my hypothesis that men and women with better health have exercise equally.
+
+```{r}
+ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2)
+```
+These five plots represent the general health of men and women according to the number of times they exercise.In this data, men exercise more than women.There is a small difference between cases. As health quality increases more men and women exercise. With fair health, men tend to exercise more than women.
+
+*Team:*
