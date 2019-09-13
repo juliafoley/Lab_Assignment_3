@@ -135,7 +135,7 @@ These plots show that the hypothesis is true. In general, people who exercise do
 Men and women with better health exercise more than the ones with poor health.
 
 ```{r}
-ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2)
+ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2) + labs(title="Exercise vs General Health in Men and Women") 
 ```
 **Findings:**
 I did not reject the hypothesis that men and women with better health exercise more than the ones with poor health. 
