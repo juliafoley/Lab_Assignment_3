@@ -19,7 +19,7 @@ cdc <- as_tibble(cdc)
 ### Overall Question
   How does smoking affect weight? 
   
-### Why Important?
+**Why Important?**
   The question is important because it will show what effects smoking has on human beings. 
   
   
@@ -50,12 +50,12 @@ ggplot(data=cdc, mapping = aes(x = weight)) +
 ### Recommendation
 Due to the little correlation between smoking and weight, we suggest that the Center for Disease Control and Prevention does not use weight as a factor for why individuals should stop smoking. The CDC should, instead, study the relationship between smoking and overall health because there will be a higher correlation between those two things. However, the CDC should make the public aware of the slight weight increase due to smoking. Additionally, the CDC should further look into why more average weight respondents smoked. There could be a correlation between average weight, smoking, and a third factor, like stress levels. 
   
-## Individual Reports:
+### Individual Reports:
 <p>&nbsp;</p>
 
-**Julia Foley**
+### Julia Foley
 
-###### Hypothesis:
+**Hypothesis:**
 My hypothesis is that as age increases, the amount of exercise will decrease. 
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
@@ -65,14 +65,14 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   theme_bw()
 ```
 
-##### Findings:
+**Findings:**
   Based on the data and the graph, my hypothesis was incorrect. The data shows that middle-aged respondents exercise more than younger and older respondents. However, overall, I found that respondents who were younger exercised more than respondents who were older. The data shows a steady decline in the number of respondents, years 38 to 100, who have exercised in the last month. Additionally, Men exercise significantly more than women. However, women, years 95 to 100, exercise more than men. Overall, as age increases, the amount of exercise decreases. 
   
 <p>&nbsp;</p>
 
-#### **Declan Franklin**
+### Declan Franklin
 
-##### Hypothesis:
+**Hypothesis:**
 
 Individuals that smoke will have a lower quality of health, but they will weigh less than the Non-Smokers.
 
@@ -92,7 +92,7 @@ ggplot(data = cdc,mapping = aes(x = weight, y = genhlth )) +
  
 ```
 
-##### Findings and Conclussions:
+**Findings and Conclussions:**
 
 After running the numbers, the data showed that my hypothesis was incorrect. In general, the smokers hold a higher quality of general health and their weight fluctuates. The Non-Smokers weight gets heavier as the quality of health goes from excellent to poor. In conclusion, the fact that the smokers knew that they smoke at the time of the survey was most likely a threat to the validity of the experiment.
 
@@ -106,9 +106,9 @@ After running the numbers, the data showed that my hypothesis was incorrect. In 
   ```
 <p>&nbsp;</p>
 
-#### **Thomas Neal**
+### Thomas Neal
 
-##### Hypothesis:
+**Hypothesis:**
 People who exercise have a lower desired weight than those who don't.
 
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
@@ -124,7 +124,7 @@ ggplot(data= cdc) +
 
 ```
 
-##### Findings and Conclussions:
+**Findings and Conclussions:**
 
 These plots show that the hypothesis is true. In general, people who exercise do have a lower desired weight than those who don't. In addition, I decided to separate based on gender and found that this effect is more dominant in women. This relates to our main question because it shows that exercise is a good form of motivation to lose weight and is a healthier alternative than smoking.
 
@@ -163,9 +163,8 @@ I confirmed the hypothesis that men and women with better health exercise more t
 ggplot(data = cdc, mapping = aes (x=gender,y=exerany,color=genhlth))+ geom_col(se=FALSE) + facet_wrap(~ genhlth, nrow = 2)
 ```
 These five plots represent the general health of men and women according to the number of times they exercise.In this data, men exercise more than women.There is a small difference between cases. As health quality increases more men and women exercise. With fair health, men tend to exercise more than women.
-
-<<<<<<< Updated upstream
 **Team:**
+ Tried different plots and helped form the main hypothesis. 
 
 #### **Thomas Neal**
 ##### Individual:
