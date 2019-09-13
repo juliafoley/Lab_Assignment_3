@@ -55,6 +55,9 @@ Due to the little correlation between smoking and weight, we suggest that the Ce
 
 **Julia Foley**
 
+###### Hypothesis:
+My hypothesis is that as age increases, the amount of exercise will decrease. 
+
 ```{r, echo=TRUE, message=FALSE, warning=FALSE}
 
 ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
@@ -63,7 +66,7 @@ ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
 ```
 
 ##### Findings:
-  When comparing age and exercise, I found that respondents who were younger exercised more than respondents who were older. The data shows a steady decline in the number of respondents, years 38 to 100, who have exercised in the last month. Additionally, Men exercise significantly more than women. However, women, years 95 to 100, exercise more than men. Overall, as age increases, the amount of exercise decreases. 
+  Based on the data and the graph, my hypothesis was incorrect. The data shows that middle-aged respondents exercise more than younger and older respondents. However, overall, I found that respondents who were younger exercised more than respondents who were older. The data shows a steady decline in the number of respondents, years 38 to 100, who have exercised in the last month. Additionally, Men exercise significantly more than women. However, women, years 95 to 100, exercise more than men. Overall, as age increases, the amount of exercise decreases. 
   
 <p>&nbsp;</p>
 
