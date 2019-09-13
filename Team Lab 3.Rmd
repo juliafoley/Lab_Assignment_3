@@ -28,7 +28,21 @@ cdc <- as_tibble(cdc)
   
   
 ### Plot
-  
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+P_names <- c(
+  '0' = "Non-Smoker",
+  '1' = "Smoker",
+  'm' = "Male",
+  'f' = "Female"
+)
+ggplot(data=cdc, mapping = aes(x = weight)) +
+  geom_histogram() +
+  facet_wrap(gender~smoke100,labeller= as_labeller(P_names))+
+  labs(title = "The Gender-Inclusive Study of Weight vs Smoking", x = 'Weight',y = 'Study Count') +
+  theme_bw()+
+  theme(plot.title = element_text(color = "blue", face = "bold"))
+```
+ 
   
 ### Conclusion
   
@@ -42,6 +56,7 @@ cdc <- as_tibble(cdc)
 **Julia Foley**
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
 ggplot(data = cdc,mapping = aes(y = exerany,x = age, color = gender)) +
   geom_col() +
   theme_bw()
